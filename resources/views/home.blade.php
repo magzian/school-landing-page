@@ -32,142 +32,72 @@
  	
     <!-- Main Header -->
     <header class="main-header header-style-four">
-    
-        <!-- Header Lower -->
-        <div class="header-lower">
+		<!-- Header Lower -->
+		<div class="header-lower">
 			<div class="lower-inner">
 				<div class="outer-container">
-					<div class="inner-container clearfix">
+					<div class="inner-container d-flex justify-content-between align-items-center">
 						
-						<div class="pull-left logo-box">
-							<div class="logo"><a href="index.html"><img src="{{asset('assets/images/logo-2.png')}}" alt="" title=""></a></div>
+						<!-- Logo on the left -->
+						<div class="logo-box">
+							<div class="logo">
+								<a href="index.html">
+									<img src="{{asset('assets/images/logo-2.png')}}" alt="Logo" title="Logo">
+								</a>
+							</div>
 						</div>
-						
-						<div class="pull-right nav-outer clearfix">
-							<!-- Mobile Navigation Toggler -->
-							<div class="mobile-nav-toggler"><span class="icon flaticon-menu-2"></span></div>
-							<!-- Main Menu -->
-							<nav class="main-menu show navbar-expand-md">
-								<div class="navbar-header">
-									<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-								</div>
-								
-								<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
-									<ul class="navigation clearfix">
-										<li class="current dropdown"><a href="#">Home</a>
-											<ul>
-												<li><a href="index.html">online course 1</a></li>
-												<li><a href="index-2.html">online course 2</a></li>
-												<li><a href="index-3.html">Coaching</a></li>
-												<li><a href="index-4.html">Kindergarten</a></li>
-												<li><a href="index-5.html">University <span class="new-page">New</span></a></li>
-												<li class="dropdown"><a href="#">Header styles</a>
-													<ul>
-														<li><a href="index.html">Header Style 01</a></li>
-														<li><a href="index-2.html">Header Style 02</a></li>
-														<li><a href="index-3.html">Header Style 03</a></li>
-														<li><a href="index-4.html">Header Style 04</a></li>
-														<li><a href="index-5.html">Header Style 05 <span class="new-page">New</span></a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li class="dropdown"><a href="#">About</a>
-											<ul>
-												<li><a href="{{route('about')}}">About Us</a></li>
-												<li><a href="faq.html">Faq</a></li>
-												<li><a href="teacher.html">Teacher</a></li>
-												<li><a href="profile.html">User Profile</a></li>
-												<li><a href="membership.html">Membership</a></li>
-												<li class="dropdown"><a href="#">Events</a>
-													<ul>
-														<li><a href="event.html">Events</a></li>
-														<li><a href="event-detail.html">Events Detail</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li class="dropdown"><a href="#">Courses</a>
-											<ul>
-												<li><a href="course.html">Courses</a></li>
-												<li><a href="course-2.html">Courses 02</a></li>
-												<li><a href="course-3.html">Courses 03</a></li>
-												<li><a href="course-4.html">Courses 04</a></li>
-												<li><a href="course-detail.html">Courses Detail</a></li>
-											</ul>
-										</li>
-										<li class="dropdown"><a href="#">Blog</a>
-											<ul>
-												<li><a href="{{route('blog')}}">Our Blog</a></li>
-												<li><a href="blog-list.html">Blog List</a></li>
-												<li><a href="blog-detail.html">Blog Detail</a></li>
-												<li><a href="not-found.html">Not Found</a></li>
-											</ul>
-										</li>
-										<li><a href="contact.html">Contact</a></li>
-										<li><a href="donation.html">Donation</a></li>
-									 </ul>
+	
+						<!-- Navigation on the right -->
+						<div class="nav-outer">
+							<nav class="main-menu navbar navbar-expand-md">
+								<div class="container-fluid">
+									<div class="navbar-header">
+										<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+											aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+	
+									<div class="navbar-collapse collapse" id="navbarSupportedContent">
+										<ul class="navigation navbar-nav ms-auto"> 
+											<li class="nav-item dropdown">
+												<a href="#" class="nav-link">Home</a>	
+											</li>
+											<li class="nav-item">
+												<a href="{{route('about')}}" class="nav-link">About Us</a>
+											</li>
+											<li class="nav-item">
+												<a href="{{route('event')}}" class="nav-link">Events</a>
+											</li>
+											<li class="nav-item">
+												<a href="{{route('contact')}}" class="nav-link">Contact</a>
+											</li>
+										</ul>
+									</div>
 								</div>
 							</nav>
-							<!-- Main Menu End-->
-							
-							<!-- Outer Box -->
-							<div class="outer-box clearfix">
-							
-								<!-- Language Nav -->
-								<ul class="language-nav">
-									<li><a href="#">Eng</a></li>
-									<li><a href="#">Dut</a></li>
-								</ul>
-								
-								<!-- Search Btn -->
-								<div class="search-box-btn search-box-outer"><span class="icon fa fa-search"></span></div>
-								
-								<!-- Login Box -->
-								<ul class="login-box">
-									<li><a href="#" class="login">Login</a></li>
-									<li><a href="#" class="register"><span class="icon flaticon-homework"></span>Visit School</a></li>
-								</ul>
-								
-							</div>
-								
 						</div>
-						
+	
 					</div>
 				</div>
 			</div>
-        </div>
-        <!--End Header Upper-->
-        
-        <!-- Mobile Menu  -->
-        <div class="mobile-menu">
-            <div class="menu-backdrop"></div>
-            <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
-            
-            <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="{{asset('assets/images/logo.png')}}" alt="" title=""></a></div>
-                <div class="menu-outer">
-					<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
-				</div>
-            </nav>
-        </div><!-- End Mobile Menu -->
-    
-    </header>
+		</div>
+	</header>
+	
     <!-- End Main Header -->
 	
     <!-- Banner Slider Five -->
     <section class="banner-section-five">
-		<div class="icon-layer-one" style="background-image:url(images2/main-slider/pattern-2.png)"></div>
-		<div class="icon-layer-two" style="background-image:url(images2/main-slider/pattern-3.png)"></div>
-		<div class="icon-layer-three" style="background-image:url(images2/main-slider/pattern-4.png)"></div>
-		<div class="icon-layer-four" style="background-image:url(images2/main-slider/pattern-5.png)"></div>
-		<div class="icon-layer-five" style="background-image:url(images2/main-slider/pattern-6.png)"></div>
-		<div class="icon-layer-seven" style="background-image:url(images2/main-slider/pattern-8.png)"></div>
-		<div class="icon-layer-eight" style="background-image:url(images2/main-slider/pattern-9.png)"></div>
+		<div class="icon-layer-one" style="background-image: url('{{ asset('assets/images2/main-slider/pattern-2.png') }}')"></div>
+		<div class="icon-layer-two" style="background-image: url('{{ asset('assets/images2/main-slider/pattern-3.png') }}')"></div>
+		<div class="icon-layer-three" style="background-image: url('{{ asset('assets/images2/main-slider/pattern-4.png') }}')"></div>
+		<div class="icon-layer-four" style="background-image: url('{{ asset('assets/images2/main-slider/pattern-5.png') }}')"></div>
+		<div class="icon-layer-five" style="background-image: url('{{ asset('assets/images2/main-slider/pattern-6.png') }}')"></div>
+		<div class="icon-layer-seven" style="background-image: url('{{ asset('assets/images2/main-slider/pattern-8.png') }}')"></div>
+		<div class="icon-layer-eight" style="background-image: url('{{ asset('assets/images2/main-slider/pattern-9.png') }}')"></div>
+
     	<div class="auto-container">
             <div class="row clearfix">
 				
@@ -184,9 +114,9 @@
 				<!-- Image Column -->
 				<div class="image-column col-lg-5 col-md-12 col-sm-12">
 					<div class="inner-column">
-						<div class="icon-layer-six" style="background-image:url(images2/main-slider/pattern-7.png)"></div>
+						<div class="icon-layer-six" style="background-image: url('{{ asset('assets/images2/main-slider/pattern-7.png') }}')"></div>
 						<div class="image">
-							<img src="{{asset('assets/images2/main-slider/content-image-1.png')}}" alt="" />
+							<img src="{{asset('assets/images2/main-slider/cdc-GDokEYnOfnE-unsplash.jpg')}}" alt="" />
 						</div>
 					</div>
 				</div>
@@ -200,7 +130,7 @@
 	<!-- About Slider -->
     <section class="about-section">
 		<div class="color-layer"></div>
-		<div class="pattern-layer-two" style="background-image:url(images2/icons/pattern-15.png)"></div>
+		<div class="pattern-layer-two" style="background-image: url('{{ asset('assets/images2/icons/pattern-15.png') }}')"></div>
 		<div class="auto-container">
             <div class="row clearfix">
 				
@@ -208,7 +138,7 @@
 				<div class="image-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
 						<div class="kids-title">Kids</div>
-						<div class="pattern-layer" style="background-image:url(images2/background/pattern-15.png)"></div>
+						<div class="pattern-layer" style="background-image: url('{{ asset('assets/images2/background/pattern-15.png') }}')"></div>
 						<div class="image">
 							<img src="{{asset('assets/images2/resource/about-1.jpg')}}" alt="" />
 						</div>
@@ -265,12 +195,13 @@
 	
 	<!-- Program Slider -->
     <section class="program-section">
-		<div class="pattern-layer-one" style="background-image:url(images2/background/pattern-16.png)"></div>
-		<div class="pattern-layer-two" style="background-image:url(images2/background/pattern-17.png)"></div>
-		<div class="pattern-layer-three" style="background-image:url(images2/icons/icon-17.png)"></div>
-		<div class="pattern-layer-four" style="background-image:url(images2/icons/icon-18.png)"></div>
-		<div class="pattern-layer-five" style="background-image:url(images2/icons/icon-18.png)"></div>
-		<div class="pattern-layer-six" style="background-image:url(images2/icons/icon-19.png)"></div>
+		<div class="pattern-layer-one" style="background-image: url('{{ asset('assets/images2/background/pattern-16.png') }}')"></div>
+		<div class="pattern-layer-two" style="background-image: url('{{ asset('assets/images2/background/pattern-17.png') }}')"></div>
+		<div class="pattern-layer-three" style="background-image: url('{{ asset('assets/images2/icons/icon-17.png') }}')"></div>
+		<div class="pattern-layer-four" style="background-image: url('{{ asset('assets/images2/icons/icon-18.png') }}')"></div>
+		<div class="pattern-layer-five" style="background-image: url('{{ asset('assets/images2/icons/icon-18.png') }}')"></div>
+		<div class="pattern-layer-six" style="background-image: url('{{ asset('assets/images2/icons/icon-19.png') }}')"></div>
+
 		<div class="auto-container">
 		
 			<!-- Sec Title Two -->
@@ -333,8 +264,8 @@
 	
 	<!-- Mission Section -->
     <section class="mission-section">
-		<div class="pattern-layer-one" style="background-image:url(images2/icons/icon-20.png)"></div>
-		<div class="pattern-layer-two" style="background-image:url(images2/icons/icon-21.png)"></div>
+		<div class="pattern-layer-one" style="background-image: url('{{ asset('assets/images2/icons/icon-20.png') }}')"></div>
+		<div class="pattern-layer-two" style="background-image: url('{{ asset('assets/images2/icons/icon-21.png') }}')"></div>		
 		<div class="auto-container">
             <div class="row clearfix">
 				
@@ -354,8 +285,8 @@
 				<!-- Image Column -->
 				<div class="image-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
-						<div class="pattern-layer-three" style="background-image:url(images2/icons/icon-22.png)"></div>
-						<div class="pattern-layer-four" style="background-image:url(images2/icons/icon-23.png)"></div>
+						<div class="pattern-layer-three" style="background-image: url('{{ asset('assets/images2/icons/icon-22.png') }}')"></div>
+						<div class="pattern-layer-four" style="background-image: url('{{ asset('assets/images2/icons/icon-23.png') }}')"></div>						
 						<div class="image">
 							<img src="{{asset('assets/images2/resource/mission.png')}}" alt="" />
 						</div>
@@ -368,9 +299,9 @@
 	<!-- End Mission Section -->
 	
 	<!-- Event Section Two -->
-    <section class="event-section-two" style="background-image:url(images2/background/pattern-18.png)">
-		<div class="icon-layer-one" style="background-image:url(images2/icons/icon-24.png)"></div>
-		<div class="icon-layer-two" style="background-image:url(images2/icons/icon-25.png)"></div>
+	<section class="event-section-two" style="background-image: url('{{ asset('assets/images2/background/pattern-18.png') }}')">
+		<div class="icon-layer-one" style="background-image: url('{{ asset('assets/images2/icons/icon-24.png') }}')"></div>
+		<div class="icon-layer-two" style="background-image: url('{{ asset('assets/images2/icons/icon-25.png') }}')"></div>
 		<div class="auto-container">
 		
 			<!-- Sec Title Two -->
@@ -436,8 +367,8 @@
 	
 	<!-- Feature Section Three -->
 	<section class="feature-section-three">
-		<div class="pattern-layer-one" style="background-image:url(images2/icons/icon-20.png)"></div>
-		<div class="pattern-layer-three" style="background-image:url(images2/icons/icon-27.png)"></div>
+		<div class="pattern-layer-one" style="background-image: url('{{ asset('assets/images2/icons/icon-20.png') }}')"></div>
+		<div class="pattern-layer-three" style="background-image: url('{{ asset('assets/images2/icons/icon-27.png') }}')"></div>		
 		<div class="auto-container">
 			<div class="row clearfix">
 			
@@ -456,9 +387,10 @@
 				<!-- Blocks Column -->
 				<div class="blocks-column col-lg-7 col-md-12 col-sm-12">
 					<div class="inner-column">
-						<div class="pattern-layer-two" style="background-image:url(images2/icons/icon-26.png)"></div>
-						<div class="blocks-pattern-layer" style="background-image:url(images2/background/pattern-19.png)"></div>
-						<div class="pattern-layer-four" style="background-image:url(images2/icons/icon-28.png)"></div>
+						<div class="pattern-layer-two" style="background-image: url('{{ asset('assets/images2/icons/icon-26.png') }}')"></div>
+						<div class="blocks-pattern-layer" style="background-image: url('{{ asset('assets/images2/background/pattern-19.png') }}')"></div>
+						<div class="pattern-layer-four" style="background-image: url('{{ asset('assets/images2/icons/icon-28.png') }}')"></div>
+
 						<div class="row clearfix">
 							
 							<!-- Feature Block Five -->
@@ -507,24 +439,26 @@
 	<!-- End Feature Section Three -->
 	
 	<!-- Testimonial Section Four -->
-	<section class="testimonial-section-four">
-		<div class="top-pattern-layer" style="background-image:url(images2/background/pattern-20.png)"></div>
-		<div class="bottom-pattern-layer" style="background-image:url(images2/background/pattern-20.png)"></div>
-		<div class="icon-layer-one" style="background-image:url(images2/icons/icon-22.png)"></div>
-		<div class="icon-layer-two" style="background-image:url(images2/icons/icon-22.png)"></div>
+	{{-- <section class="testimonial-section-four">
+		<div class="top-pattern-layer" style="background-image: url('{{ asset('assets/images2/background/pattern-20.png') }}')"></div>
+		<div class="bottom-pattern-layer" style="background-image: url('{{ asset('assets/images2/background/pattern-20.png') }}')"></div>
+		<div class="icon-layer-one" style="background-image: url('{{ asset('assets/images2/icons/icon-22.png') }}')"></div>
+		<div class="icon-layer-two" style="background-image: url('{{ asset('assets/images2/icons/icon-22.png') }}')"></div>
+		
 		<div class="auto-container">
 			<div class="sec-title-two centered">
 				<div class="title">Testimonial</div>
 				<h2>See what our customers say</h2>
 			</div>
 			<div class="inner-container">
-				<div class="circle-pattern-layer-one" style="background-image:url(images2/background/pattern-22.png)"></div>
-				<div class="circle-pattern-layer-two" style="background-image:url(images2/background/pattern-22.png)"></div>
+				<div class="circle-pattern-layer-one" style="background-image: url('{{ asset('assets/images2/background/pattern-22.png') }}')"></div>
+				<div class="circle-pattern-layer-two" style="background-image: url('{{ asset('assets/images2/background/pattern-22.png') }}')"></div>
+				
 				<div class="hm4-testimonial-carousel owl-carousel owl-theme">
 				
 					<!-- Testimonial Block Four -->
 					<div class="testimonial-block-four">
-						<div class="inner-box" style="background-image:url(images2/background/pattern-21.png)">
+						<div class="inner-box" style="background-image: url('{{ asset('assets/images2/background/pattern-21.png') }}')"></div>
 							<div class="author-image">
 								<span class="quote-icon flaticon-quote-2"></span>
 								<div class="image">
@@ -539,7 +473,7 @@
 					
 					<!-- Testimonial Block Four -->
 					<div class="testimonial-block-four">
-						<div class="inner-box" style="background-image:url(images2/background/pattern-21.png)">
+						<div class="inner-box" style="background-image: url('{{ asset('assets/images2/background/pattern-21.png') }}')"></div>
 							<div class="author-image">
 								<span class="quote-icon flaticon-quote-2"></span>
 								<div class="image">
@@ -554,7 +488,7 @@
 					
 					<!-- Testimonial Block Four -->
 					<div class="testimonial-block-four">
-						<div class="inner-box" style="background-image:url(images2/background/pattern-21.png)">
+						<div class="inner-box" style="background-image: url('{{ asset('assets/images2/background/pattern-21.png') }}');"></div>
 							<div class="author-image">
 								<span class="quote-icon flaticon-quote-2"></span>
 								<div class="image">
@@ -569,7 +503,7 @@
 					
 					<!-- Testimonial Block Four -->
 					<div class="testimonial-block-four">
-						<div class="inner-box" style="background-image:url(images2/background/pattern-21.png)">
+						<div class="inner-box" style="background-image: url('{{ asset('assets/images2/background/pattern-21.png') }}');"></div>
 							<div class="author-image">
 								<span class="quote-icon flaticon-quote-2"></span>
 								<div class="image">
@@ -584,7 +518,7 @@
 					
 					<!-- Testimonial Block Four -->
 					<div class="testimonial-block-four">
-						<div class="inner-box" style="background-image:url(images2/background/pattern-21.png)">
+						<div class="inner-box" style="background-image: url('{{ asset('assets/images2/background/pattern-21.png') }}');"></div>
 							<div class="author-image">
 								<span class="quote-icon flaticon-quote-2"></span>
 								<div class="image">
@@ -599,7 +533,7 @@
 					
 					<!-- Testimonial Block Four -->
 					<div class="testimonial-block-four">
-						<div class="inner-box" style="background-image:url(images2/background/pattern-21.png)">
+						<div class="inner-box" style="background-image: url('{{ asset('assets/images2/background/pattern-21.png') }}');"></div>
 							<div class="author-image">
 								<span class="quote-icon flaticon-quote-2"></span>
 								<div class="image">
@@ -616,15 +550,15 @@
 				
 			</div>
 		</div>
-	</section>
+	</section> --}}
 	<!-- End Testimonial Section Four -->
 	
 	<!-- Newsletter Section Three -->
-	<section class="newsletter-section-three" style="background-image:url(images2/background/pattern-23.png)">
-		<div class="side-pattern-layer" style="background-image:url(images2/background/pattern-24.png)"></div>
+	<section class="newsletter-section-three" style="background-image: url('{{ asset('assets/images2/background/pattern-23.png') }}');">
+		<div class="side-pattern-layer" style="background-image: url('{{ asset('assets/images2/background/pattern-24.png') }}');"></div>
 		<div class="auto-container">
 			<div class="inner-container">
-				<div class="icon-layer-one" style="background-image:url(images2/icons/pattern-12.png)"></div>
+				<div class="icon-layer-one" style="background-image: url('{{ asset('assets/images2/icons/pattern-12.png') }}');"></div>	
 				<div class="title-box">
 					<div class="title">Signup Newsletter</div>
 					<h2>Quickly Get Updates About Your Class <br> Event and News!</h2>
@@ -646,9 +580,9 @@
 	
 	<!-- Footer Style Three -->
     <footer class="footer-style-three">
-		<div class="icon-layer-one" style="background-image: url(images2/icons/icon-20.png)"></div>
-		<div class="icon-layer-two" style="background-image: url(images2/icons/icon-17.png)"></div>
-		<div class="icon-layer-three" style="background-image: url(images2/icons/icon-24.png)"></div>
+		<div class="icon-layer-one" style="background-image: url('{{ asset('assets/images2/icons/icon-20.png') }}');"></div>
+		<div class="icon-layer-two" style="background-image: url('{{ asset('assets/images2/icons/icon-17.png') }}');"></div>
+		<div class="icon-layer-three" style="background-image: url('{{ asset('assets/images2/icons/icon-24.png') }}');"></div>		
 		<div class="auto-container">
 			<div class="auto-container">
 				<!-- Upper Box -->
