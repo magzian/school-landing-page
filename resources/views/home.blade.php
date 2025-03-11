@@ -13,6 +13,8 @@
 
 <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon">
 <link rel="icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon">
+	
+</head>
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -77,7 +79,7 @@
 										</ul>
 									</div>
 								</div>
-							</nav>
+							</nav> 
 						</div>
 	
 					</div>
@@ -116,7 +118,7 @@
 					<div class="inner-column">
 						<div class="icon-layer-six" style="background-image: url('{{ asset('assets/images2/main-slider/pattern-7.png') }}')"></div>
 						<div class="image">
-							<img src="{{asset('assets/images2/main-slider/cdc-GDokEYnOfnE-unsplash.jpg')}}" alt="" />
+							<img src="{{asset('assets/images/home-images/content-image-1.png')}}" alt="" />
 						</div>
 					</div>
 				</div>
@@ -140,13 +142,13 @@
 						<div class="kids-title">Kids</div>
 						<div class="pattern-layer" style="background-image: url('{{ asset('assets/images2/background/pattern-15.png') }}')"></div>
 						<div class="image">
-							<img src="{{asset('assets/images2/resource/about-1.jpg')}}" alt="" />
+							<img src="{{asset('assets/images/home-images/about-1.jpg')}}" alt="" />
 						</div>
 						<div class="image-two">
-							<img src="{{asset('assets/images2/resource/about-2.jpg')}} " alt="" />
+							<img src="{{asset('assets/images/home-images/about-2.jpg')}} " alt="" />
 						</div>
 						<div class="image-three">
-							<img src="{{asset('assets/images2/resource/about-3.jpg')}} " alt="" />
+							<img src="{{asset('assets/images/home-images/about-3.jpg')}} " alt="" />
 						</div>
 					</div>
 				</div>
@@ -224,7 +226,7 @@
 							<div class="text">By creating a safe, consistent and welcoming environment, we help</div>
 							<div class="image">
 								<div class="post-time">2.5 hours</div>
-								<a href="course-detail.html"><img src= "{{asset('assets/images2/resource/program-1.jpg') }}" alt="" /></a>
+								<a href="course-detail.html"><img src= "{{asset('assets/images/home-images/program-1.jpg') }}" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -237,7 +239,7 @@
 							<div class="text">By creating a safe, consistent and welcoming environment, we help</div>
 							<div class="image">
 								<div class="post-time">2.5 hours</div>
-								<a href="course-detail.html"><img src="{{asset('assets/images2/resource/program-1.jpg')}} " alt="" /></a>
+								<a href="course-detail.html"><img src="{{asset('assets/images/home-images/program-1.jpg')}} " alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -250,7 +252,7 @@
 							<div class="text">There are many variations of passages of Lorem Ipsum available, but the jorit</div>
 							<div class="image">
 								<div class="post-time">2.5 hours</div>
-								<a href="course-detail.html"><img src="{{asset('assets/images2/resource/program-1.jpg')}} " alt="" /></a>
+								<a href="course-detail.html"><img src="{{asset('assets/images/home-images/program-1.jpg')}} " alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -288,7 +290,7 @@
 						<div class="pattern-layer-three" style="background-image: url('{{ asset('assets/images2/icons/icon-22.png') }}')"></div>
 						<div class="pattern-layer-four" style="background-image: url('{{ asset('assets/images2/icons/icon-23.png') }}')"></div>						
 						<div class="image">
-							<img src="{{asset('assets/images2/resource/mission.png')}}" alt="" />
+							<img src="{{asset('assets/images/home-images/mission.png')}}" alt="" />
 						</div>
 					</div>
 				</div>
@@ -324,7 +326,7 @@
 							<h4><a href="event-detail.html">Father`s Day Sundaes & Education Shaving!</a></h4>
 							<div class="text">Affert nostro volumus id pri. Has purto mutat equidem ad. Istarum impulsu nostro volumus id pri. Has purto </div>
 							<div class="image">
-                            <a href="event-detail.html"><img src="{{asset('assets/images2/resource/event-1.jpg')}} " alt="" /></a>
+                            <a href="event-detail.html"><img src="{{asset('assets/images/home-images/event-1.jpg')}} " alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -339,7 +341,7 @@
 							<h4><a href="event-detail.html">Edcamp: Design for Learning Series - Identity</a></h4>
 							<div class="text">Affert nostro volumus id pri. Has purto mutat equidem ad. Istarum impulsu nostro volumus id pri. Has purto </div>
 							<div class="image">
-                            <a href="event-detail.html"><img src="{{asset('assets/images2/resource/event-2.jpg')}} " alt="" /></a>
+                            <a href="event-detail.html"><img src="{{asset('assets/images/home-images/event-2.jpg')}} " alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -354,7 +356,7 @@
 							<h4><a href="event-detail.html">The International Surface Education Event</a></h4>
 							<div class="text">Affert nostro volumus id pri. Has purto mutat equidem ad. Istarum impulsu nostro volumus id pri. Has purto </div>
 							<div class="image">
-								<a href="event-detail.html"><img src="{{asset('assets/images2/resource/event-3.jpg')}} " alt="" /></a>
+								<a href="event-detail.html"><img src="{{asset('assets/images/home-images/event-3.jpg')}} " alt="" /></a>
 							</div>
 						</div>
 					</div>

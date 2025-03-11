@@ -29,82 +29,60 @@
     <div class="preloader"></div>
  	
  	<!-- Main Header / Header Style Two -->
-    <header class="main-header header-style-two">
-    	
-		<!--Header-Upper-->
-        <div class="header-upper">
-        	<div class="outer-container clearfix">
-            	
-				<div class="pull-left logo-box">
-					<div class="logo"><a href="index.html"><img src="images/logo-2.png" alt="" title=""></a></div>
-				</div>
-				
-				<div class="nav-outer clearfix">
-					<!--Mobile Navigation Toggler-->
-					<div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
-					<!-- Main Menu -->
-					<nav class="main-menu navbar-expand-md">
-						<div class="navbar-header">
-							<!-- Toggle Button -->    	
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
+	 <header class="main-header header-style-four">
+		<!-- Header Lower -->
+		<div class="header-lower">
+			<div class="lower-inner">
+				<div class="outer-container">
+					<div class="inner-container d-flex justify-content-between align-items-center">
 						
-						<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
-							<ul class="navigation clearfix move-right">
-								
-								<li class="dropdown"><a href="#">Home</a></li>
-								<li class="current"><a href="contact.html">About Us</a></li>
-								<li class="current"><a href="contact.html">Events</a></li>
-								<li class="current"><a href="contact.html">Contact</a></li>
-								
-							</ul>
+						<!-- Logo on the left -->
+						<div class="logo-box">
+							<div class="logo">
+								<a href="index.html">
+									<img src="{{asset('assets/images/logo-2.png')}}" alt="Logo" title="Logo">
+								</a>
+							</div>
 						</div>
-					</nav>
-					
-					<!-- Main Menu End-->
-					
-				</div>
-				
-            </div>
-        </div>
-        <!--End Header Upper-->
-        
-		<!-- Sticky Header  -->
-        <div class="sticky-header">
-            <div class="auto-container clearfix">
-                <!--Logo-->
-                <div class="logo pull-left">
-                    <a href="index.html" title=""><img src="images/logo.png" alt="" title=""></a>
-                </div>
-                <!--Right Col-->
-                <div class="pull-right">
-                    <!-- Main Menu -->
-                    <nav class="main-menu">
-                        <!--Keep This Empty / Menu will come through Javascript-->
-                    </nav>
-					<!-- Main Menu End-->
-					
-                </div>
-            </div>
-        </div>
-		<!-- End Sticky Menu -->
-    
-		<!-- Mobile Menu  -->
-        <div class="mobile-menu">
-            <div class="menu-backdrop"></div>
-            <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
-            
-            <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
-                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-            </nav>
-        </div><!-- End Mobile Menu -->
 	
-    </header>
+						<!-- Navigation on the right -->
+						<div class="nav-outer">
+							<nav class="main-menu navbar navbar-expand-md">
+								<div class="container-fluid">
+									<div class="navbar-header">
+										<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+											aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+	
+									<div class="navbar-collapse collapse" id="navbarSupportedContent">
+										<ul class="navigation navbar-nav ms-auto"> 
+											<li class="nav-item dropdown">
+												<a href="#" class="nav-link">Home</a>	
+											</li>
+											<li class="nav-item">
+												<a href="{{route('about')}}" class="nav-link">About Us</a>
+											</li>
+											<li class="nav-item">
+												<a href="{{route('event')}}" class="nav-link">Events</a>
+											</li>
+											<li class="nav-item">
+												<a href="{{route('contact')}}" class="nav-link">Contact</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</nav> 
+						</div>
+	
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
     <!-- End Main Header -->
 	
 	<!-- Sidebar Cart Item -->
@@ -123,7 +101,7 @@
 					<div class="sidebar-info-contents">
 						<div class="content-inner">
 							<div class="logo">
-								<a href="index.html"><img src="images/logo-2.png" alt="" /></a>
+								<a href="index.html"><img src="{{asset('assets/images/logo-2.png')}}" alt="" /></a>
 							</div>
 							<div class="content-box">
 								<h2>About Us</h2>
@@ -185,7 +163,7 @@
 				<div class="event-block-two col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
-							<a href="event-detail.html"><img src="images2/resource/event-4.jpg" alt="" /></a>
+							<a href="event-detail.html"><img src="{{asset('assets/images2/resource/event-4.jpg')}}" alt="" /></a>
 						</div>
 						<div class="lower-content">
 							<div class="category">Online</div>
@@ -206,7 +184,7 @@
 				<div class="event-block-two col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
-							<a href="event-detail.html"><img src="images2/resource/event-5.jpg" alt="" /></a>
+							<a href="event-detail.html"><img src="{{asset('assets/images2/resource/event-5.jpg')}}" alt="" /></a>
 						</div>
 						<div class="lower-content">
 							<div class="category">school</div>
@@ -227,7 +205,7 @@
 				<div class="event-block-two col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
-							<a href="event-detail.html"><img src="images2/resource/event-6.jpg" alt="" /></a>
+							<a href="event-detail.html"><img src="{{asset('assets/images2/resource/event-6.jpg')}}" alt="" /></a>
 						</div>
 						<div class="lower-content">
 							<div class="category">Online</div>
@@ -248,7 +226,7 @@
 				<div class="event-block-two col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
-							<a href="event-detail.html"><img src="images2/resource/event-7.jpg" alt="" /></a>
+							<a href="event-detail.html"><img src="{{asset('assets/images2/resource/event-7.jpg')}}" alt="" /></a>
 						</div>
 						<div class="lower-content">
 							<div class="category">Online</div>
@@ -269,7 +247,7 @@
 				<div class="event-block-two col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
-							<a href="event-detail.html"><img src="images2/resource/event-8.jpg" alt="" /></a>
+							<a href="event-detail.html"><img src="{{asset('assets/images2/resource/event-8.jpg')}}" alt="" /></a>
 						</div>
 						<div class="lower-content">
 							<div class="category">school</div>
@@ -290,7 +268,7 @@
 				<div class="event-block-two col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box">
 						<div class="image">
-							<a href="event-detail.html"><img src="images2/resource/event-9.jpg" alt="" /></a>
+							<a href="event-detail.html"><img src="{{asset('assets/images2/resource/event-9.jpg')}}" alt="" /></a>
 						</div>
 						<div class="lower-content">
 							<div class="category">Online</div>
@@ -328,7 +306,7 @@
 					<div class="footer-column col-lg-5 col-md-12 col-sm-12">
 						<div class="footer-widget logo-widget">
 							<div class="logo">
-								<a href="index.html"><img src="images/logo.png" alt="" /></a>
+								<a href="index.html"><img src="{{asset('assets/images/logo.png')}}" alt="" /></a>
 							</div>
 							<ul class="info-list">
 								<li>Tel:<a href="tel:+0845-371-02-02"> 0845 371 02 02</a></li>
